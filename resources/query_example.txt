@@ -1,0 +1,15 @@
+Request URL:
+https://us.api.iheart.com/api/v3/search/all?
+    boostMarketId=197&
+    keyword=true&
+    keywords=radio%201045&
+    maxRows=3&
+    countryCode=US&
+    startIndex=0&
+    albums=true&
+    bundle=true&
+    artist=true&
+    playlist=true&
+    station=true&
+    podcast=true&
+    track=true

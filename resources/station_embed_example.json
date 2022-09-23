@@ -1,0 +1,1260 @@
+{
+  "ads": {
+    "adInterval": 600000,
+    "adswizz": {
+      "companionZones": 45287,
+      "subdomain": "clearchannel",
+      "zoneId": 45286
+    },
+    "amazon": {
+      "pubId": "3901",
+      "script": "//c.amazon-adsystem.com/aax2/apstag.js"
+    },
+    "customAds": {
+      "companion": null,
+      "enableCustomAds": true,
+      "partnerIds": "https://yield-op-idsync.live.streamtheworld.com/partnerIds",
+      "playing": false,
+      "tritonPartnerIds": {},
+      "type": "Triton",
+      "url": "https://crdl.tritondigital.com/api/ads/delivery",
+      "tritonScript": "https://playerservices.live.streamtheworld.com/api/idsync.js?stationId=339593"
+    },
+    "env": "prod",
+    "googleTag": {
+      "dfpInstanceId": "6663"
+    },
+    "indexExchange": {
+      "scripts": {
+        "en": "//js-sec.indexww.com/ht/p/184908-241185131738393.js"
+      }
+    },
+    "lotame": {
+      "clientId": 4086,
+      "enabled": false,
+      "networkId": 4085,
+      "thirdPartyId": "CLCH",
+      "threshold": 100,
+      "legacyLotame": false
+    },
+    "moat": {
+      "enabled": true,
+      "header": "https://sejs.moatads.com/iheartprebidheader211581645343/moatheader.js",
+      "jwplayer": "https://z.moatads.com/jwplayerplugin0938452/moatplugin.js",
+      "jwPartnerCode": "iheartmediajwplayer830534806428",
+      "library": "https://z.moatads.com/iheartprebidheader211581645343/moatheader.js",
+      "partnerCode": "clearchanneldfp218445832525"
+    },
+    "rubicon": {
+      "script": "//ads.rubiconproject.com/prebid/16442_iHeart_DM_US.js"
+    },
+    "stationTargetingInfo": {},
+    "suppressAds": true,
+    "triton": {
+      "desktop": {
+        "custom": "20730",
+        "talk": "23050"
+      },
+      "enabled": true,
+      "mobile": {
+        "custom": "28614",
+        "talk": "28615"
+      },
+      "sid": "151",
+      "threshold": 100
+    },
+    "TFCD": null
+  },
+  "albums": {
+    "albums": {}
+  },
+  "analytics": {
+    "adobe": {
+      "account": "cccorporate01,cccorporate,ccnetwork",
+      "dtmUrl": "//assets.adobedtm.com/dba7b4ad2c8b/91f40365a420/launch-530fb1e26ecf.min.js",
+      "enabled": true,
+      "secureTrackingServer": "smy.iheart.com",
+      "threshold": 100,
+      "trackingServer": "my.iheart.com",
+      "visitorNamespace": "clearchannel"
+    },
+    "comScore": {
+      "customerId": "6036262",
+      "enabled": true,
+      "publisherSecret": "0bef577ec3f4eebf3d5eaa3945b5f838",
+      "threshold": 100
+    },
+    "googleAnalytics": {
+      "account": "UA-32316039-1",
+      "domain": "iheart.com",
+      "enabled": true,
+      "threshold": 100
+    },
+    "googleFirebase": {
+      "account": "G-441TYTQYC2"
+    },
+    "permutive": {}
+  },
+  "artists": {
+    "artists": {}
+  },
+  "config": {
+    "braze": {
+      "appKey": "73f8cae6-7de9-48ef-adc5-fcbd335f6d61",
+      "baseUrl": "sdk.iad-01.braze.com",
+      "enabled": true,
+      "threshold": 100
+    },
+    "countryCode": "US",
+    "facebookPixel": {
+      "enabled": true,
+      "id": "1126589700832689"
+    },
+    "gfkSensicSdk": {
+      "enabled": false
+    },
+    "googleCast": {
+      "appKey": "7F8E0EF3",
+      "enabled": true,
+      "threshold": 100
+    },
+    "hostName": "webapp.US",
+    "markPlayedThreshold": 30,
+    "phoneNumbers": {
+      "callingCode": "1",
+      "format": "(ddd) ddd - dddd"
+    },
+    "piiRegulation": {
+      "dashboardLink": "https://iheart.com/optout/",
+      "enabled": true
+    },
+    "recaptcha": {
+      "enabled": true,
+      "key": "6Lc2RwMTAAAAAKQNHEwIs39F0sgRJuvBbUWJJv82",
+      "threshold": 100
+    },
+    "recurly": {
+      "appKey": "ewr1-9LMtPZ6U0H45p9yXY46mLR"
+    },
+    "outbrainPixel": {
+      "enabled": true,
+      "id": "004d2133385513d6a3dbfd9993b43474ab"
+    },
+    "redditPixel": {
+      "enabled": true,
+      "id": "t2_553wp6j9"
+    },
+    "snapchat": {
+      "pixel": {
+        "enabled": true,
+        "id": "015fcbb1-38ea-41dc-ae3e-391a68f31a4b"
+      }
+    },
+    "stationSoftgate": {
+      "artist": true,
+      "favorites": true,
+      "live": true,
+      "playlistradio": true,
+      "podcast": true,
+      "track": true
+    },
+    "supportedCountries": [
+      "US",
+      "CA",
+      "AU",
+      "NZ",
+      "MX",
+      "WW"
+    ],
+    "terminalId": 159,
+    "territoryCode": "US",
+    "tune": {
+      "advertiserId": "189170",
+      "conversionKey": "f0dae9a9c25e992b74b201afeab36489",
+      "enabled": true,
+      "threshold": 100
+    },
+    "urls": {
+      "api": {
+        "client": "https://us.api.iheart.com",
+        "server": "https://us.api.iheart.com"
+      },
+      "contentApi": "https://content.radioedit.iheart.com",
+      "graphQlApi": "https://flagshipapi.radioedit.iheart.com/graphql",
+      "heroTheme": "https://leads.radioedit.iheart.com/api/cards?country=US&collection=collections/web-homescreen",
+      "holidayHat": "https://leads.radioedit.iheart.com/api/cards?country=US&collection=collections/holiday-hat&facets=devices/web",
+      "iglooUrl": "https://us-events.api.iheart.com",
+      "leadsApi": "https://leads.radioedit.iheart.com",
+      "playlistDirectoryMain": "https://leads.radioedit.iheart.com/api/cards?",
+      "radioEditMediaServer": "https://i.iheart.com",
+      "site": "https://www.iheart.com",
+      "webGraphQlApi": "https://webapi.radioedit.iheart.com/graphql"
+    },
+    "verizonDot": {
+      "enabled": true,
+      "projectId": 10000,
+      "pixelId": 10132294
+    }
+  },
+  "configOverride": {},
+  "environment": {
+    "isSDK": false,
+    "env": "prod",
+    "isBot": true,
+    "isInApp": false,
+    "isMobile": false,
+    "version": "8.35.6"
+  },
+  "events": {},
+  "favorites": {},
+  "features": {
+    "flags": {
+      "customRadio": true,
+      "darkModeAvailable": false,
+      "extrasNav": true,
+      "forceABTest": {},
+      "forYou": true,
+      "freeUserMyPlaylist": true,
+      "freeUserPlaylistCreation": true,
+      "gfkSensic": false,
+      "glassbox": true,
+      "graphQl": true,
+      "headerBidding": true,
+      "homepageEventsSection": true,
+      "homepageNewsSection": true,
+      "internationalPlaylistRadio": false,
+      "liveRadio": true,
+      "liveRadioCountryNav": true,
+      "longProfileId": true,
+      "miniFooter": false,
+      "mixtapeInForYou": true,
+      "newSearch": false,
+      "onDemand": true,
+      "personalizedPlaylistRecs": true,
+      "pivotGeoEnabled": true,
+      "playlistRadioAds": true,
+      "podcastPreroll": true,
+      "podcastRecs": true,
+      "recommendedPlaylistRecs": true,
+      "resetPasswordIncludeLogin": true,
+      "showWelcome": true,
+      "socialShare": false,
+      "TEMPnoRefreshOnLogin": false,
+      "widgetArtistRadio": true,
+      "widgetFavorites": true,
+      "widgetLive": true,
+      "widgetPlaylist": true,
+      "widgetPodcastEpisode": true,
+      "widgetPodcastProfile": true,
+      "refreshAdOnFocus": true,
+      "liveLegalLinks": true
+    },
+    "registration": {
+      "genderAllowUnselected": false,
+      "genders": [
+        "gender.male",
+        "gender.female",
+        "gender.unspecified"
+      ],
+      "oauths": [
+        "facebook",
+        "google"
+      ],
+      "showLoginInNav": true,
+      "zipKeyboard": "numeric",
+      "zipRegex": "^\\d{5}$"
+    }
+  },
+  "genres": {
+    "genres": {},
+    "receivedGenres": false
+  },
+  "hero": {
+    "assetUrl": null,
+    "backgroundColor": "#000000",
+    "btnTitle": null,
+    "hasHero": true,
+    "hideHero": false,
+    "imgUrl": null,
+    "isFavorite": false,
+    "name": null,
+    "noLogo": false,
+    "noMask": true,
+    "noStretch": true,
+    "primaryBackgroundSrc": "https://i.iheart.com/v3/re/assets.brands/d0a3c3785e4ed33f6ea802a4b31f4d49",
+    "target": null,
+    "type": "PREMIUM",
+    "url": null
+  },
+  "i18nState": {
+    "lang": "en",
+    "translations": {
+      "options": {
+        "suppress_warnings": true
+      }
+    }
+  },
+  "links": {
+    "about": "/about/",
+    "adChoices": "https://www.iheart.com/adchoices/",
+    "advertise": "https://www.iheartmedia.com/advertising",
+    "apps": "https://iheart.onelink.me/Ff5B/GetTheApp",
+    "appsAuto": "https://www.iheart.com/apps/#auto",
+    "appsHome": "https://www.iheart.com/apps/#home",
+    "appsMobile": "https://iheart.onelink.me/Ff5B/GetTheApp",
+    "appsWear": "https://www.iheart.com/apps/#wear",
+    "blog": "https://blog.iheart.com/",
+    "brand": "https://brand.iheart.com/",
+    "content": "https://www.iheart.com/content/",
+    "contestRules": "/content/general-contesting-guidelines/",
+    "contests": "https://news.iheart.com/contests/",
+    "customRadio": "/artist/",
+    "events": "https://www.iheart.com/content/iheartradio-events/",
+    "features": "https://www.iheart.com/content/iheartradio-features/",
+    "forYou": "/for-you/",
+    "genres": "/genre/",
+    "getTheAppLink": "https://iheart.onelink.me/Ff5B/GetTheApp",
+    "help": "/help/",
+    "helpResettingPassword": "https://www.iheartradio.com/help-resetting-password",
+    "helpSkipLimit": "https://www.iheartradio.com/help-skip-limit",
+    "helpSocialSignIn": "https://www.iheartradio.com/help-social-sign-in",
+    "helpVerifyingEmail": null,
+    "home": "/",
+    "jobs": "https://www.iheartmedia.com/careers/",
+    "liveRadio": "/live/",
+    "myMusic": "/my/music/",
+    "myStations": "/my/stations/",
+    "news": "https://www.iheart.com/news/",
+    "ondemand": "https://ondemand.pages.iheart.com/",
+    "optOut": "https://iheart.com/optout/",
+    "photos": "https://news.iheart.com/photo/",
+    "playlists": "/playlist/",
+    "podcasts": "/podcast/",
+    "privacy": "/privacy/",
+    "subscriptionoptions": "/offers/",
+    "terms": "/terms/",
+    "tlnkApps": "https://iheartradio.tlnk.io/serve?action=click&campaign_id_android=390639&campaign_id_ios=390625&campaign_id_web=430712&destination_id_android=305483&destination_id_ios=305471&my_campaign=GetTheApp&publisher_id=351677&site_id_android=112521&site_id_ios=112517&site_id_web=136022&url_web=https://www.iheart.com/apps",
+    "upgrade": "/upgrade/",
+    "yourLibrary": "/your-library/"
+  },
+  "live": {
+    "countryOptions": [],
+    "defaults": {
+      "cityId": 159,
+      "cityName": "New York",
+      "marketName": "NEWYORK-NY",
+      "stateAbbr": "NY",
+      "stateId": 37,
+      "stateName": "New York"
+    },
+    "filters": {
+      "country": null,
+      "genre": null,
+      "market": null
+    },
+    "genreOptions": {},
+    "marketOptions": {},
+    "stationLists": {},
+    "stations": {
+      "3401": {
+        "id": 3401,
+        "score": 0,
+        "name": "ALT 104.5",
+        "responseType": "LIVE",
+        "description": "Philly's Alternative Rock",
+        "band": "FM",
+        "callLetters": "WRFF-FM",
+        "logo": "https://i.iheart.com/v3/re/new_assets/5ecd457d5466175faca5bcf8",
+        "freq": "104.5",
+        "cume": 424800,
+        "countries": "US",
+        "streams": {
+          "hls_stream": "http://stream.revma.ihrhls.com/zc3401/hls.m3u8",
+          "shoutcast_stream": "http://stream.revma.ihrhls.com/zc3401",
+          "secure_hls_stream": "https://stream.revma.ihrhls.com/zc3401/hls.m3u8",
+          "secure_shoutcast_stream": "https://stream.revma.ihrhls.com/zc3401"
+        },
+        "isActive": true,
+        "modified": "1646014440286",
+        "markets": [
+          {
+            "type": "LiveMarketResponse",
+            "name": "PHILADELPHIA-PA",
+            "marketId": "196",
+            "sortIndex": 7,
+            "city": "Philadelphia",
+            "stateId": 45,
+            "stateAbbreviation": "PA",
+            "cityId": 196,
+            "country": "US",
+            "countryId": 1,
+            "origin": true,
+            "primary": true
+          }
+        ],
+        "genres": [
+          {
+            "type": "LiveGenreResponse",
+            "id": 1,
+            "name": "Alternative",
+            "sortIndex": 13,
+            "primary": true
+          }
+        ],
+        "esid": "1603",
+        "feeds": {
+          "feed": "www.iheart.com/live/3401/",
+          "enableTritonTracking": "true"
+        },
+        "format": "ROCKALTERNATIVE",
+        "provider": "Clear Channel",
+        "rds": "",
+        "website": "radio1045.iheart.com",
+        "social": {
+          "twitter": "Radio1045",
+          "facebook": "Radio1045",
+          "facebook_name": "ALT1045Philly",
+          "facebook_switch": true,
+          "instagram_name": "Alt1045Philly",
+          "instagram_switch": true,
+          "pinterest_name": null,
+          "pinterest_switch": null,
+          "request_phone_number": "",
+          "sms_number": "",
+          "snapchat_name": null,
+          "snapchat_switch": null,
+          "tiktok_name": null,
+          "tiktok_switch": null,
+          "twitter_name": "Alt1045Philly",
+          "twitter_switch": true,
+          "youtube_name": "Radio1045philly",
+          "youtube_switch": false
+        },
+        "adswizz": {
+          "publisher_id": "8018",
+          "adswizzHost": "",
+          "enableAdswizzTargeting": "false"
+        },
+        "adswizzZones": {
+          "audio-fill-zone": "36898",
+          "audio-zone": "36900",
+          "optimized-audio-fill-zone": "36901",
+          "audio-exchange-zone": "36899",
+          "display-zone": "36902"
+        },
+        "callLetterAlias": "WRFF-FM",
+        "callLetterRoyalty": "WRFF-FM",
+        "fccFacilityId": "53969",
+        "rdsPiCode": "1213",
+        "pronouncements": [
+          {
+            "utterance": "alt one oh four point five",
+            "primary": false
+          },
+          {
+            "utterance": "alt one oh four five",
+            "primary": true
+          }
+        ],
+        "link": "https://www.iheart.com/live/3401/?autoplay=true",
+        "streamingPlatform": "streaming-platforms/revma",
+        "ads": {
+          "audio_ad_provider": "ad-providers/triton"
+        },
+        "talkbackEnabled": true,
+        "seedId": 3401,
+        "seedType": "live",
+        "stationName": "ALT 104.5",
+        "stationSite": "radio1045.iheart.com",
+        "imgWidth": 240,
+        "playedFrom": 138,
+        "rawLogo": "https://i.iheart.com/v3/re/new_assets/5ecd457d5466175faca5bcf8",
+        "url": "/live/alt-1045-3401/",
+        "thumbs": {},
+        "leads": [
+          {
+            "exclusion": [
+              {
+                "tags": []
+              }
+            ],
+            "important": false,
+            "position": 1,
+            "priority": 1,
+            "range": {
+              "begin": 1659465240000,
+              "end": null
+            },
+            "targets": [
+              {
+                "tags": [
+                  "collections/newsletter",
+                  "brands/WRFF-FM (4665)",
+                  "collections/local-homepage-promotions"
+                ]
+              }
+            ],
+            "id": "/62e96e940b9d8b2a43c7e3e4",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/62e96e610b9d8b2a43c7e3e3",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/62e96e610b9d8b2a43c7e3e3",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_self",
+              "urls": {
+                "device": "alt1045philly.com/listen",
+                "web": "alt1045philly.com/listen"
+              }
+            },
+            "subtitle": "",
+            "title": "Listen to The Woody Show Weekdays on ALT 104.5! ",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://radio1045.iheart.comalt1045philly.com/listen"
+          },
+          {
+            "exclusion": [
+              {
+                "tags": []
+              }
+            ],
+            "important": false,
+            "position": 1,
+            "priority": 1,
+            "range": {
+              "begin": 1661324400000,
+              "end": 1662534000000
+            },
+            "targets": [
+              {
+                "tags": [
+                  "genres/Top 40 & Pop",
+                  "genres/Mix & Variety",
+                  "genres/Alternative",
+                  "collections/national-homepage-promotions"
+                ]
+              }
+            ],
+            "id": "/6307995c884ad79b4dc0a369",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/63090aafaf255936ae21f2e1",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/63090aafaf255936ae21f2e1",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_blank",
+              "urls": {
+                "device": "",
+                "web": "https://iheartradio.com/fortnite"
+              }
+            },
+            "subtitle": "",
+            "title": "Welcome To iHeartLand, A World Where Music And Gaming Collide In Fortnite!",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://iheartradio.com/fortnite"
+          },
+          {
+            "exclusion": [
+              {
+                "tags": [
+                  "facets/MusicFestivalContestOptOuts"
+                ]
+              }
+            ],
+            "important": false,
+            "position": 2,
+            "priority": 1,
+            "range": {
+              "begin": 1659942000000,
+              "end": 1662793200000
+            },
+            "targets": [
+              {
+                "tags": [
+                  "collections/local-homepage-promotions",
+                  "facets/MusicFestivalContest"
+                ]
+              }
+            ],
+            "id": "/62ed780b067a1f2d828acfec",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/629e75caed5725689f3bd4e7",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/629e75caed5725689f3bd4e7",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_blank",
+              "urls": {
+                "device": "",
+                "web": "/promotions/win-1000-and-a-once-in-a-lifetime-trip-the-iheartradio-music-festival-in-las-vegas-1293926/"
+              }
+            },
+            "subtitle": "",
+            "title": "Listen For Your Chance To Win A Trip To Las Vegas!",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://radio1045.iheart.com/promotions/win-1000-and-a-once-in-a-lifetime-trip-the-iheartradio-music-festival-in-las-vegas-1293926/"
+          },
+          {
+            "exclusion": [
+              {
+                "tags": [
+                  "formats/SPANISH",
+                  "brands/BIN-IP",
+                  "formats/BINNEWS",
+                  "brands/LOVE-FL (15412)",
+                  "brands/CTRYLOVE-FL"
+                ]
+              }
+            ],
+            "important": false,
+            "position": 3,
+            "priority": 1,
+            "range": {
+              "begin": 1635750000000,
+              "end": null
+            },
+            "targets": [
+              {
+                "tags": [
+                  "facets/All Sites - English",
+                  "collections/national-homepage-promotions-backfill"
+                ]
+              }
+            ],
+            "id": "/5d8bd27cdf8f904b41e26188",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/61afba9dd8e1f65cd8b9790f",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/61afba9dd8e1f65cd8b9790f",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_blank",
+              "urls": {
+                "device": "",
+                "web": "/apps/"
+              }
+            },
+            "subtitle": "",
+            "title": "Download Our Free iHeartRadio App!",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://radio1045.iheart.com/apps/"
+          },
+          {
+            "exclusion": [
+              {
+                "tags": [
+                  "formats/SPANISH",
+                  "brands/BIN-IP",
+                  "formats/BINNEWS",
+                  "brands/sports",
+                  "brands/LOVE-FL (15412)",
+                  "brands/CTRYLOVE-FL",
+                  "brands/IHMF-FL (15497)"
+                ]
+              }
+            ],
+            "important": false,
+            "position": 4,
+            "priority": 1,
+            "range": {
+              "begin": 1569444360000,
+              "end": null
+            },
+            "targets": [
+              {
+                "tags": [
+                  "facets/All Sites - English",
+                  "collections/national-homepage-promotions-backfill"
+                ]
+              }
+            ],
+            "id": "/60c11fb91cd14383a9774ca0",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/61c0eb6e16a5d70763e6b341",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/61c0eb6e16a5d70763e6b341",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_blank",
+              "urls": {
+                "device": "",
+                "web": "https://news.iheart.com/charts/podcasts-top-100/latest/"
+              }
+            },
+            "subtitle": "",
+            "title": "Listen To The Most Popular Podcasts On iHeartRadio!",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://news.iheart.com/charts/podcasts-top-100/latest/"
+          },
+          {
+            "exclusion": [
+              {
+                "tags": [
+                  "formats/SPANISH",
+                  "brands/BIN-IP",
+                  "formats/BINNEWS",
+                  "brands/sports",
+                  "brands/LOVE-FL (15412)",
+                  "brands/CTRYLOVE-FL",
+                  "brands/IHMF-FL (15497)"
+                ]
+              }
+            ],
+            "important": false,
+            "position": 5,
+            "priority": 1,
+            "range": {
+              "begin": 1569444360000,
+              "end": null
+            },
+            "targets": [
+              {
+                "tags": [
+                  "facets/All Sites - English",
+                  "collections/national-homepage-promotions-backfill"
+                ]
+              }
+            ],
+            "id": "/60c120171cd14383a9774ca3",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/61c0eb5a16a5d70763e6b33f",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/61c0eb5a16a5d70763e6b33f",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_blank",
+              "urls": {
+                "device": "",
+                "web": "https://www.iheart.com/offers/"
+              }
+            },
+            "subtitle": "",
+            "title": "Subscribe Now To Listen Your Favorite Songs On Demand!",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://www.iheart.com/offers/"
+          },
+          {
+            "exclusion": [
+              {
+                "tags": [
+                  "formats/SPANISH",
+                  "brands/BIN-IP",
+                  "formats/BINNEWS",
+                  "brands/sports",
+                  "brands/LOVE-FL (15412)",
+                  "brands/CTRYLOVE-FL",
+                  "brands/IHMF-FL (15497)"
+                ]
+              }
+            ],
+            "important": false,
+            "position": 6,
+            "priority": 1,
+            "range": {
+              "begin": 1569098820000,
+              "end": null
+            },
+            "targets": [
+              {
+                "tags": [
+                  "facets/All Sites - English",
+                  "collections/national-homepage-promotions-backfill"
+                ]
+              }
+            ],
+            "id": "/5d8bd536df8f904b41e2618b",
+            "img_uri": "https://i.iheart.com/v3/re/new_assets/61c0eb2d16a5d70763e6b33d",
+            "background_color": "",
+            "catalog": null,
+            "img_meta": {
+              "base_id": "/61c0eb2d16a5d70763e6b33d",
+              "bucket": "new_assets",
+              "ops": []
+            },
+            "link": {
+              "description": "",
+              "name": "",
+              "target": "_blank",
+              "urls": {
+                "device": "",
+                "web": "/featured/iheartradio-live/"
+              }
+            },
+            "subtitle": "",
+            "title": "Exclusive Shows From Today's Best Artists",
+            "use_catalog_image": false,
+            "target": "_blank",
+            "url": "https://radio1045.iheart.com/featured/iheartradio-live/"
+          }
+        ],
+        "nowOn": {
+          "name": "Aly",
+          "coreShowId": 3,
+          "start": "1:00 PM",
+          "stop": "6:00 PM",
+          "stopMs": 1661637600000,
+          "destination": {
+            "href": "https://alt1045philly.iheart.com/featured/aly/",
+            "thumbnail": "https://i.iheart.com/v3/re/assets.brands/8cdda5f2de07dafbb2ee00738e1cc5a9"
+          },
+          "timeUntilShiftChange": 11087
+        },
+        "relatedPodcastIds": [
+          "26318098",
+          "28674033",
+          "78515165",
+          "29395916"
+        ],
+        "relatedPlaylistIds": [],
+        "timeline": [
+          {
+            "external_url": "",
+            "feed_vendor": "",
+            "img": "https://i.iheart.com/v3/re/new_assets/6308dc41e9a006010ed5077b",
+            "is_sponsored": true,
+            "permalink": "https://alt1045philly.iheart.com/content/2022-08-26-over-10-million-subscribers-rely-on-this-app-to-learn-new-languages/",
+            "slug": "2022-08-26-over-10-million-subscribers-rely-on-this-app-to-learn-new-languages",
+            "title": "Over 10 Million Subscribers Rely On This App To Learn New Languages"
+          },
+          {
+            "external_url": "",
+            "feed_vendor": "",
+            "img": "https://i.iheart.com/v3/re/new_assets/62d70e586bc6cb4bd2e673c9",
+            "is_sponsored": false,
+            "permalink": "https://alt1045philly.iheart.com/content/2022-08-26-this-is-pennsylvanias-signature-cheap-food/",
+            "slug": "2022-08-26-this-is-pennsylvanias-signature-cheap-food",
+            "title": "This Is Pennsylvania's Signature Cheap Food"
+          },
+          {
+            "external_url": "",
+            "feed_vendor": "",
+            "img": "https://i.iheart.com/v3/re/assets.getty/6309246aefd53c0d2db22b56",
+            "is_sponsored": false,
+            "permalink": "https://alt1045philly.iheart.com/content/2022-08-26-watch-cincinnati-reds-outfielder-goes-off-on-phillies-fans/",
+            "slug": "2022-08-26-watch-cincinnati-reds-outfielder-goes-off-on-phillies-fans",
+            "title": "WATCH: Cincinnati Reds Outfielder Goes Off On Phillies Fans"
+          },
+          {
+            "external_url": "",
+            "feed_vendor": "",
+            "img": "https://i.iheart.com/v3/re/new_assets/630903060deb1b0580b559be",
+            "is_sponsored": false,
+            "permalink": "https://alt1045philly.iheart.com/content/2022-08-26-wet-legs-rhian-teasdale-recalls-disgusting-job-she-had-before-the-band/",
+            "slug": "2022-08-26-wet-legs-rhian-teasdale-recalls-disgusting-job-she-had-before-the-band",
+            "title": "Wet Leg's Rhian Teasdale Recalls 'Disgusting' Job She Had Before The Band"
+          }
+        ],
+        "upcoming": [
+          {
+            "name": "Josh",
+            "coreShowId": 6532,
+            "start": "6:00 PM",
+            "stop": "10:00 PM",
+            "stopMs": 1661652000000,
+            "destination": {
+              "href": "https://alt1045philly.iheart.com/featured/josh-1045/",
+              "thumbnail": "https://i.iheart.com/v3/re/assets.brands/5ebe99bc1384cb09f9c79e84"
+            }
+          },
+          {
+            "name": "DJ Reed Streets",
+            "coreShowId": 6712,
+            "start": "10:00 PM",
+            "stop": "12:00 AM",
+            "stopMs": 1661659200000,
+            "destination": {
+              "href": "https://alt1045philly.iheart.com/featured/dj-reed-streets/",
+              "thumbnail": "https://i.iheart.com/v3/re/assets.brands/cc232635ac7343b5386cf71f0f76b844"
+            }
+          },
+          {
+            "name": "Aidan White",
+            "coreShowId": 6702,
+            "start": "5:00 AM",
+            "stop": "7:00 AM",
+            "stopMs": 1661684400000,
+            "destination": {
+              "href": "https://alt1045philly.iheart.com/featured/aidan-white/",
+              "thumbnail": "https://i.iheart.com/v3/re/assets.brands/5f23207273f3313220950e25"
+            }
+          }
+        ],
+        "legalLinks": {
+          "facilities": {
+            "FM": {
+              "public": "https://publicfiles.fcc.gov/fm-profile/WRFF",
+              "political": "https://politicalfiles.iheartmedia.com/files/location/WRFF/",
+              "callLetters": "WRFF"
+            }
+          },
+          "assistance": "https://alt1045philly.iheart.com/content/public-file-assistance/",
+          "contestRules": "https://alt1045philly.iheart.com/rules",
+          "EEOPublicFile": "https://i.iheart.com/v3/re/assets.brands/6272c9f09d591e9675395b75?passthrough=1"
+        },
+        "similars": [
+          4447,
+          6437,
+          6950,
+          6954,
+          4982,
+          6698,
+          201,
+          6468,
+          2281
+        ]
+      }
+    },
+    "liveTakeoverWhitelist": [],
+    "isRequestingStations": false
+  },
+  "location": {
+    "defaultMarketId": 159
+  },
+  "myMusic": {
+    "collections": {
+      "ids": []
+    },
+    "tracks": {
+      "ids": [],
+      "pagination": {
+        "next": "",
+        "nextPageKey": ""
+      }
+    }
+  },
+  "news": {
+    "articleLists": {},
+    "articles": {},
+    "status": {
+      "requestingArticle": false
+    }
+  },
+  "playback": {
+    "muted": false,
+    "volume": 50
+  },
+  "player": {
+    "isWarmingUp": false,
+    "speed": 1,
+    "playerUIError": null
+  },
+  "playlist": {
+    "playlists": {},
+    "receivedPlaylists": true
+  },
+  "playlistDirectory": {
+    "categories": {},
+    "playlistTiles": {}
+  },
+  "podcast": {
+    "articles": {},
+    "categories": {},
+    "categoryIds": [],
+    "episodes": {},
+    "hosts": {},
+    "networks": [],
+    "shows": {
+      "26318098": {
+        "customLinks": [],
+        "description": "Insensitivity Training For A Politically Correct World.",
+        "editorialContentQuery": [
+          [
+            "brands/The Woody Show (54307)"
+          ]
+        ],
+        "hostIds": [],
+        "id": 26318098,
+        "imgUrl": "https://i.iheart.com/v3/url/aHR0cHM6Ly9kM3dvNXdvanZ1djdsLmNsb3VkZnJvbnQubmV0L3RfcnNzX2l0dW5lc19zcXVhcmVfMTQwMC9pbWFnZXMuc3ByZWFrZXIuY29tL29yaWdpbmFsL2M5NzY4MjE1MWQ1Zjc3N2UyZWRjMjBkMGQwNmM5MjI4LmpwZw",
+        "isExternal": true,
+        "lastUpdated": 1651246011,
+        "seedId": 26318098,
+        "seedShowId": 26318098,
+        "seedType": "podcast",
+        "showType": "episodic",
+        "slug": "139-the-woody-show",
+        "socialMediaLinks": [],
+        "stationType": "podcast",
+        "title": "The Woody Show",
+        "url": "/podcast/139-the-woody-show-26318098/",
+        "episodeIds": []
+      },
+      "28674033": {
+        "customLinks": [],
+        "description": "Musings and nonsense from the brain of Mike Jones!",
+        "editorialContentQuery": [],
+        "hostIds": [],
+        "id": 28674033,
+        "imgUrl": "https://i.iheart.com/v3/url/aHR0cHM6Ly9kM3dvNXdvanZ1djdsLmNsb3VkZnJvbnQubmV0L3RfcnNzX2l0dW5lc19zcXVhcmVfMTQwMC9pbWFnZXMuc3ByZWFrZXIuY29tL29yaWdpbmFsL2EzOWRhOGQxYTc1ZDcxNTZiYTEyOTkzYThlNjMwZmJmLmpwZw",
+        "isExternal": true,
+        "lastUpdated": 1646143346,
+        "seedId": 28674033,
+        "seedShowId": 28674033,
+        "seedType": "podcast",
+        "showType": "episodic",
+        "slug": "53-Its-Mike-Jones",
+        "socialMediaLinks": [],
+        "stationType": "podcast",
+        "title": "It's Mike Jones",
+        "url": "/podcast/53-its-mike-jones-28674033/",
+        "episodeIds": []
+      },
+      "29395916": {
+        "customLinks": [],
+        "description": "Ravey, Cameron, Randy, and Courtney break down weekly nerd news, nerd theories and speculation. We talk movies, tv, gaming, and anything Nerdy! Its a podcast for the truly nerdy at heart, from your friends at The Woody Show! Some of our favorite topics include Marvel, the MCU, DC, Star Wars, Netflix, Streaming, Television, Video Games, Movies, and more!",
+        "editorialContentQuery": [],
+        "hostIds": [],
+        "id": 29395916,
+        "imgUrl": "https://i.iheart.com/v3/url/aHR0cHM6Ly9kMWJtM2RtZXc3Nzl1Zi5jbG91ZGZyb250Lm5ldC9yc3Mvc2hvdy8yOTc3Njg3Lzc4OTE1MWRkNWVjMTU2NTQ3MGVjMzJjNDkzZDA1OTUxLmpwZw",
+        "isExternal": true,
+        "lastUpdated": 1647308695,
+        "seedId": 29395916,
+        "seedShowId": 29395916,
+        "seedType": "podcast",
+        "showType": "episodic",
+        "slug": "960-Nerdin-Out",
+        "socialMediaLinks": [],
+        "stationType": "podcast",
+        "title": "Nerdin Out",
+        "url": "/podcast/960-nerdin-out-29395916/",
+        "episodeIds": []
+      },
+      "78515165": {
+        "customLinks": [],
+        "description": "'That One Time At Beer Camp' is a podcast dedicated to craft breweries in Philadelphia (and beyond!) Get to know the brains behind the brew, and learn about their world!",
+        "editorialContentQuery": [],
+        "hostIds": [],
+        "id": 78515165,
+        "imgUrl": "https://i.iheart.com/v3/url/aHR0cHM6Ly9kM3dvNXdvanZ1djdsLmNsb3VkZnJvbnQubmV0L3RfcnNzX2l0dW5lc19zcXVhcmVfMTQwMC9pbWFnZXMuc3ByZWFrZXIuY29tL29yaWdpbmFsLzE2ODNjOWY2NjczNjgzOGI1ODI0OTViOTc4NTQzYWVhLmpwZw",
+        "isExternal": true,
+        "lastUpdated": 1649177764,
+        "seedId": 78515165,
+        "seedShowId": 78515165,
+        "seedType": "podcast",
+        "showType": "episodic",
+        "slug": "269-that-one-time-at-beer-camp",
+        "socialMediaLinks": [],
+        "stationType": "podcast",
+        "title": "That One Time At Beer Camp",
+        "url": "/podcast/269-that-one-time-at-beer-camp-78515165/",
+        "episodeIds": []
+      }
+    },
+    "status": {
+      "receivedFollowed": false
+    }
+  },
+  "promo": {},
+  "recs": {
+    "artist": {},
+    "genre": {},
+    "canLoadMore": false
+  },
+  "routing": {
+    "force404data": null,
+    "history": {},
+    "internalNavCount": 0,
+    "location": {
+      "pathname": "/live/alt-1045-3401/",
+      "search": null
+    },
+    "params": {
+      "slugifiedId": "alt-1045-3401"
+    },
+    "previousLocation": {
+      "hash": null,
+      "key": null,
+      "pathname": null,
+      "search": ""
+    },
+    "pageInfo": {}
+  },
+  "search": {
+    "searchFilter": "",
+    "searchQuery": ""
+  },
+  "searchNew": {
+    "searchFilter": "",
+    "searchQuery": ""
+  },
+  "siteData": {
+    "socialOpts": {
+      "supportsConnect": false,
+      "supportsShare": true
+    }
+  },
+  "social": {
+    "facebook": {
+      "appId": "121897277851831",
+      "enabled": true,
+      "name": "iheartradio",
+      "pages": "55354819171",
+      "threshold": 100
+    },
+    "fbAppId": "121897277851831",
+    "fbPages": "55354819171",
+    "googlePlus": {
+      "appKey": "884160514548-4917aophkpafpbgh8r1lndhc3f128ouf.apps.googleusercontent.com",
+      "enabled": true,
+      "threshold": 100
+    },
+    "instagram": {
+      "enabled": true,
+      "name": "iHeartRadio"
+    },
+    "tumblr": {
+      "enabled": true,
+      "name": "iheartradio"
+    },
+    "twitter": {
+      "enabled": true,
+      "name": "iHeartRadio"
+    },
+    "youtube": {
+      "enabled": true,
+      "name": "iHeartRadio"
+    }
+  },
+  "stations": {
+    "listenHistoryReceived": false,
+    "requestingListenHistory": false,
+    "totalListenHistoryStations": 0
+  },
+  "targeting": {
+    "globalTargeting": {
+      "accountType": null,
+      "age": null,
+      "country": null,
+      "env": null,
+      "gender": null,
+      "profileId": null,
+      "visitNum": null,
+      "zip": null
+    },
+    "playerTargeting": {
+      "locale": null,
+      "seed": null,
+      "ccrcontent2": null,
+      "ccrformat": null,
+      "ccrmarket": null,
+      "provider": null,
+      "playedfrom": null
+    }
+  },
+  "theme": {},
+  "tracks": {
+    "thumbs": {},
+    "tracks": {}
+  },
+  "ui": {
+    "appMounted": false,
+    "growls": [],
+    "isAdBlocked": false,
+    "isFSPOpen": false,
+    "isListenInAppVisible": false,
+    "modal": {
+      "id": null,
+      "context": null
+    },
+    "showingAccountDropdown": false,
+    "showingSideNav": false,
+    "showingWidgetLoginOverflow": false
+  },
+  "user": {
+    "abTestGroups": {},
+    "profile": {
+      "accountType": null,
+      "billingHistory": null,
+      "birthDate": null,
+      "birthYear": null,
+      "email": null,
+      "emailOptOut": null,
+      "error": null,
+      "facebookId": null,
+      "favorites": null,
+      "firstError": null,
+      "gender": null,
+      "googlePlusId": null,
+      "iheartId": null,
+      "marketName": null,
+      "name": null,
+      "piiBlockingTypes": [],
+      "preferences": {},
+      "profileReceived": false,
+      "roaming": null,
+      "shareProfile": null,
+      "zipCode": null
+    },
+    "session": {
+      "anonId": null,
+      "deviceId": null,
+      "errorMessage": null,
+      "genreSelected": false,
+      "isAnonymous": false,
+      "isAuthenticated": false,
+      "isRequestingSession": false,
+      "profileId": null,
+      "sessionExpired": false,
+      "sessionId": null
+    },
+    "subscription": {
+      "entitlements": {
+        "ADFREE_BANNER": false
+      },
+      "subInfo": {
+        "expiration": null,
+        "hasBillingHistory": false,
+        "isAutoRenewing": null,
+        "isTrial": false,
+        "isTrialEligible": false,
+        "subInfoLoaded": false,
+        "subscriptionType": "NONE"
+      }
+    }
+  },
+  "yourLibrary": {
+    "savedStations": {
+      "info": {},
+      "order": []
+    },
+    "songs": {
+      "ids": {},
+      "nextPageKey": null
+    }
+  }
+}
