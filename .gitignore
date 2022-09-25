@@ -1,10 +1,10 @@
+.vscode/settings.json
 tests/__pycache__/__init__.cpython-38.pyc
 tests/__pycache__/test_api.cpython-38-pytest-7.1.3.pyc
 tests/__pycache__/test_api.cpython-38.pyc
 tests/__pycache__/test_cli.cpython-38-pytest-7.1.3.pyc
-.vscode/settings.json
 iheartir/__pycache__/__init__.cpython-38.pyc
 iheartir/__pycache__/api.cpython-38.pyc
-iheartir/__pycache__/classes.cpython-38.pyc
 iheartir/__pycache__/cli.cpython-38.pyc
+iheartir/__pycache__/classes.cpython-38.pyc
 iheartir/__pycache__/providers.cpython-38.pyc

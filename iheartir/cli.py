@@ -1,13 +1,13 @@
-import iheartir
-import iheartir.api
-import click
-import logging
+from iheartir import PROVIDERS as _PROVIDERS
+import iheartir.api as _api
+import click as _click
+import logging as _logging
 
 __all__ = []
 
 
-@click.group()
-@click.option(
+@_click.group()
+@_click.option(
     "-v",
     "--verbose",
     count=True,
@@ -16,51 +16,51 @@ __all__ = []
 def cli(verbose):
 
     # Sets up a console handler in addition to the existing logfile handler
-    console = logging.StreamHandler()
-    formatter = logging.Formatter("%(name)s:%(levelname)s %(message)s")
+    console = _logging.StreamHandler()
+    formatter = _logging.Formatter("%(name)s:%(levelname)s %(message)s")
     console.setFormatter(formatter)
 
-    # Default logging level for console is error, since this is for a command-line script
-    console.setLevel(logging.ERROR)
+    # Default logging level for console is error, since this is for a command-line script and it should silently fail
+    console.setLevel(_logging.ERROR)
     if verbose:
         if verbose >= 3:
-            level = logging.DEBUG
+            level = _logging.DEBUG
         elif verbose == 2:
-            level = logging.INFO
+            level = _logging.INFO
         elif verbose == 1:
-            level = logging.WARNING
+            level = _logging.WARNING
         console.setLevel(level)
-    logging.getLogger("").addHandler(console)
+    _logging.getLogger("").addHandler(console)
     # From here, control passes to the called command
 
 
 @cli.command()
-@click.argument("search_string", nargs=1)
-@click.option(
+@_click.argument("search_string", nargs=1)
+@_click.option(
     "-l",
     "--limit",
-    type=click.IntRange(0, clamp=True),
-    default = 10,
+    type=_click.IntRange(0, clamp=True),
+    default=10,
     help="Sets the maximum number of results returned by each provider",
 )
 def search(search_string, limit):
-    '''Performs a search for matching radio station from all providers'''
-    results = iheartir.api.search_stations(search_string, limit)
-    if len(results)>10:
-        click.echo_via_pager(results)
+    """Performs a search for matching radio station from all providers"""
+    results = _api.search_stations(search_string, limit)
+    if len(results) > 10:
+        _click.echo_via_pager(results)
     else:
         for result in results:
-            click.echo(result)
-        
+            _click.echo(result)
+
 
 @cli.command()
-@click.argument("url", nargs=1)
+@_click.argument("url", nargs=1)
 def info(url):
-    '''Gets information about the radio station from the provided url'''
-    click.echo(iheartir.api.get_station_info(url))
+    """Gets information about the radio station from the provided url"""
+    _click.echo(_api.get_station_info(url))
 
 
 @cli.command()
 def providers():
-    '''Lists the available search providers for radio streams'''
-    [click.echo(provider.get_name()) for provider in iheartir.PROVIDERS]
+    """Lists the available search providers for radio streams"""
+    [_click.echo(provider.get_name()) for provider in _PROVIDERS]

@@ -13,6 +13,7 @@ expected_result = iheartir.classes.Station(
     genre="Alternative",
 )
 
+
 def test_get():
     """Confirms that the website is available, the html and json parsers are still functioning, and the get function works as expected"""
     station_url = "https://www.iheart.com/live/alt-1045-3401/"
@@ -26,8 +27,9 @@ def test_search():
     result = iheartir.api.search_stations(search_string, limit=1)[0]
     assert result == expected_result
 
+
 def test_update():
-    """Confirms that the search api is available, the json parser is still functioning, and the update function works as expected"""
+    """Confirms that the search api is available, the html and json parser is still functioning, and the update function works as expected"""
     search_string = "alt 1045"
     # This loads the quick station info from the search api
     result = iheartir.api.search_stations(search_string, limit=1)[0]

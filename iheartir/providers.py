@@ -10,7 +10,7 @@ import sys as _sys
 __all__ = ["IHeartRadioProvider"]
 
 
-class _IHeartRadioProvider(object):
+class IHeartRadioProvider(object):
     """Default StationProvider implementation for iHeart Radio"""
 
     def __init__(self):
@@ -32,11 +32,14 @@ class _IHeartRadioProvider(object):
 
     def get(self, station_url: str) -> _classes.Station:
         """Returns a Station object containing all information for the selected station"""
-        response = _requests.get(url=station_url)
         try:
+            response = _requests.get(url=station_url)
             response.raise_for_status()
         except _requests.HTTPError:
             _logging.error("HTTPError when trying to get " + station_url)
+            _sys.exit(0)
+        except _requests.exceptions.ConnectionError:
+            _logging.error("ConnectionError when trying to get " + station_url)
             _sys.exit(0)
         _logging.info("Status code %s" % str(response.status_code))
         html = _etree.HTML(response.content)
@@ -98,7 +101,7 @@ class _IHeartRadioProvider(object):
                 url=f"{self.get_base_url()}/live/{str(result['id'])}",
                 image=result["imageUrl"],
                 # streams=NULL
-                score=result["score"]
+                score=result["score"],
             )
             for result in results
         ]
@@ -110,6 +113,3 @@ class _IHeartRadioProvider(object):
                 url,
             )
         )
-
-
-IHeartRadioProvider = _IHeartRadioProvider()
