@@ -48,7 +48,7 @@ class Station:
 
     def __repr__(self):
         streams = "\n    ".join([f"{k}: {v}" for k, v in self.streams.items()])
-        return f"{self.name}\n  {self.description}\n  {self.call_letters}\n  Genre: {self.genre}\n  Frequency: {self.frequency}\n  URL: {self.url}\n  Image URL: {self.image}\n  Streams:\n    {streams}\n  Score: {self.score}\n  Provider: {self.provider}\n\n"
+        return f"{self.name}\n  {self.description}\n  {self.call_letters}\n  Genre: {self.genre}\n  Frequency: {self.frequency}\n  URL: {self.url}\n  Image URL: {self.image}\n  Streams:\n    {streams}\n  Score: {self.score}\n  Provider: {self.provider}\n"
 
     def __eq__(self, other: _typing.Any) -> bool:
         return type(self) == type(other) and self.provider == other.provider and self.station_id == other.station_id and self.name == other.name and self.call_letters == other.call_letters and self.description == other.description
