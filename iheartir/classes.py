@@ -45,7 +45,7 @@ class Station:
         self.image = image
         self.streams = streams
         self.score = score
-    
+
     def __repr__(self):
         streams = "\n    ".join([f"{k}: {v}" for k, v in self.streams.items()])
         return f"{self.name}\n  {self.description}\n  {self.call_letters}\n  Genre: {self.genre}\n  Frequency: {self.frequency}\n  URL: {self.url}\n  Image URL: {self.image}\n  Streams:\n    {streams}\n  Score: {self.score}\n  Provider: {self.provider}\n\n"

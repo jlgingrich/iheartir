@@ -46,3 +46,7 @@ def get_station_info(url: str) -> _classes.Station:
     else:
         _logging.warn("Unable to find matching provider")
     return results
+
+def update_station_info(station: _classes.Station) -> _classes.Station:
+    '''Updates the information about the station from its url'''
+    return get_station_info(url=station.url)
