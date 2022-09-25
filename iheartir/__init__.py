@@ -1,39 +1,24 @@
-from pkg_resources import iter_entry_points
+from .api import get_providers
+from .api import search_stations
+from .api import get_station_info
+from .classes import Station
+from .classes import StationProvider
 import logging
-import logging.config
 
-log_config = {
-    'version': 1,
-    'formatters': {
-        'verbose': {
-            'format': '%(asctime)s:%(levelname)s:%(funcName)s:%(message)s'
-        },
-        'simple': {
-            'format': '%(levelname)s:%(message)s'
-        },
-    },
-    'handlers': {
-        'console':{
-            'level':'WARNING',
-            'class':'logging.StreamHandler',
-            'formatter': 'simple'
-        },
-        'logfile': {
-            'level': 'DEBUG',
-            'class': 'logging.handlers.TimedRotatingFileHandler',
-            'formatter': 'verbose',
-            'filename': 'logs/iheartir.last.log'
-        }
-    },
-    'root': {
-        'handlers': ['console', 'logfile'],
-        'level': 'DEBUG'
-    }
-}
+__all__ = [
+    "PROVIDERS",
+    "search_stations",
+    "get_station_info",
+    "Station",
+    "StationProvider",
+]
 
-logging.config.dictConfig(log_config)
+PROVIDERS = get_providers()
 
-logging.debug("Sucessfully started logger")
-
-def get_providers():
-    return {entry_point.load() for entry_point in iter_entry_points('iheartir.providers')}
+# Setup a basic
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s:%(name)-12s:%(levelname)-8s:%(message)s",
+    filename="/tmp/iheartir.log",
+    filemode="w",
+)
