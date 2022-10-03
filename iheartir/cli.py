@@ -39,9 +39,9 @@ def cli(verbose):
 @_click.option(
     "-l",
     "--limit",
-    type=_click.IntRange(0, clamp=True),
+    type=_click.IntRange(1, clamp=True),
     default=10,
-    help="Sets the maximum number of results returned by each provider",
+    help="Sets the maximum number of results returned",
 )
 def search(search_string, limit):
     """Performs a search for matching radio station from all providers"""
@@ -59,6 +59,21 @@ def info(url):
     """Gets information about the radio station from the provided url"""
     _click.echo(_api.get_station_info(url))
 
+@cli.command()
+@_click.argument("url", nargs=1)
+@_click.option(
+    "-t",
+    "--type",
+    is_flag=True,
+    help="If set, also shows the type of the returned stream",
+)
+def stream(url, type):
+    """Gets the best stream url from the provided url"""
+    k, v = _api.get_best_stream(_api.get_station_info(url))
+    if type:
+        _click.echo(f"{k}: {v}")
+    else:
+        _click.echo(f"{v}")
 
 @cli.command()
 def providers():

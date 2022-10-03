@@ -2,6 +2,7 @@ import iheartir as _iheartir
 import iheartir.classes as _classes
 import typing as _typing
 import logging as _logging
+import re as _re
 from importlib.metadata import entry_points as _entry_points
 
 __all__ = ["get_providers", "search_stations", "get_station_info"]
@@ -60,4 +61,18 @@ def get_station_info(url: str) -> _classes.Station:
 
 def update_station_info(station: _classes.Station) -> _classes.Station:
     """Updates the information about the station from its url"""
+    _logging.debug(f"Updating station: {station}")
     return get_station_info(url=station.url)
+
+def get_best_stream(station: _classes.Station) -> str:
+    """Returns the best available stream from the given station"""
+    _logging.debug(f"Beginning to rank streams from station: {station}")
+    def _get_score(item: tuple) -> int:
+        """Calculates a very basic preference score for streams"""
+        score = 0
+        # Preference secure links
+        if item[1].startswith("https://"): score += 5
+        # Heavily preference links to a manifest file
+        if _re.match(r"/[\w]+\.[\w]{3,4}$", item[1]): score += 10
+        return score
+    return sorted(station.streams.items(), key = lambda x: _get_score(x), reverse = True)[0]
