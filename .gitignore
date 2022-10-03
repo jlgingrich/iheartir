@@ -8,3 +8,5 @@ iheartir/__pycache__/api.cpython-38.pyc
 iheartir/__pycache__/cli.cpython-38.pyc
 iheartir/__pycache__/classes.cpython-38.pyc
 iheartir/__pycache__/providers.cpython-38.pyc
+iheartir.code-workspace
+.gitignore
